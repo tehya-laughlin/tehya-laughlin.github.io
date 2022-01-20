@@ -8,10 +8,10 @@ Laughlin Assignment One
   <h3>Here's Me:</h3>
 
    <h4> Standard Image Link </h4>
-        <p> <a href="../img/LinkedInProfPic.jpeg">Tehya</a>
+        <a href="../img/LinkedInProfPic.jpeg">Tehya</a>
    <h4> Extra: Embedded Image </h4>
-        <p><img src="../img/LinkedInProfPic.jpeg" alt="Tehya" width="502" height="752" ></p>
+        <img src="../img/LinkedInProfPic.jpeg" alt="Tehya" width="502" height="752" >
       <h3>My Favorite youtube video:</h3>
-        <p> <a href="https://www.youtube.com/watch?v=XpAaH87yBcQ">Bookshelf Roast by Daniel Greene</a>
+        <a href="https://www.youtube.com/watch?v=XpAaH87yBcQ">Bookshelf Roast by Daniel Greene</a>
         Daniel Greene is one of my favorite youtubers!
         I'm currently reading <em>The Wheel Of Time</em> because of him.
