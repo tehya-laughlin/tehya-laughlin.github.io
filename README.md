@@ -6,7 +6,7 @@
 
   ### Here's Me:  
 
-  #### Extra: Embedded Image (PS. can't get it to work)   
+  #### Extra: Embedded Image 
   ![Me!](img/LinkedInProfPic.jpeg)
   ### My Favorite youtube video:  
   [Bookshelf Roast by Daniel Greene](https://www.youtube.com/watch?v=XpAaH87yBcQ)  
