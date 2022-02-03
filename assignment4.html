@@ -3,6 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment 4</title>
+    <style>
+      p{
+        margin: 5px;
+      }
+      .container {
+        display: flex;
+        flex-direction:row;
+      }
+      .item{
+        width:50%;
+      }
+      .panel{
+        background-color:white;
+        padding:3px;
+        border: 3px;
+        border-color: darkSLateGray;
+      }
+      .spacing-header{
+        margin:4px;
+        padding:3px;
+      }
+
+    </style>
   </head>
   <body style="font-family:helvetica;background-color:HoneyDew;color:darkSLateGray">
 
@@ -10,7 +33,7 @@
 
     <div > <!-- Table of Contents -->
       <ol>
-        <li><a href="#1" style="color:darkRed">Challenge 1</a></li>
+        <li><a href="/index.html" style="color:darkRed">Challenge 1</a></li>
         <li><a href="#2" style="color:darkRed">Challenge 2</a></li>
         <li><a href="#3" style="color:darkRed">Challenge 3</a></li>
         <li><a href="#4" style="color:darkRed">Challenge 4</a></li>
@@ -20,29 +43,29 @@
 
      <!-- challenge 1 takes place on the index page -->
 
-    <div> <!-- challenge 2 -->
+    <div class="spacing-header"> <!-- challenge 2 -->
       <h2 id="2">Challenge 2: Build a Chessboard</h2>
       <table  style="border:5px solid darkSlateGray;text-align:center">
           <tr>
-            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9820;</p></th>
-            <th  style="height:50px;width:50px"><p style="font-size:15px">&#9822;</th>
-            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9821;</p></th>
-            <th  style="height:50px;width:50px"><p style="font-size:15px">&#9819;</p></th>
-            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9818;</p></th>
-            <th  style="height:50px;width:50px"><p style="font-size:15px">&#9821;</p></th>
-            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9822;</p></th>
-            <th  style="height:50px;width:50px"><p style="font-size:15px">&#9820;</p></th>
+            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9820;</p></th>
+            <th  style="height:50px;width:50px"><p style="font-size:25px">&#9822;</th>
+            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9821;</p></th>
+            <th  style="height:50px;width:50px"><p style="font-size:25px">&#9819;</p></th>
+            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9818;</p></th>
+            <th  style="height:50px;width:50px"><p style="font-size:25px">&#9821;</p></th>
+            <th  style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9822;</p></th>
+            <th  style="height:50px;width:50px"><p style="font-size:25px">&#9820;</p></th>
           </tr>
         <tbody>
           <tr >
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9823;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9823;</p></td>
           </tr>
           <tr>
             <th style="background-color:cadetBlue;height:50px;width:50px"></th>
@@ -87,46 +110,75 @@
             <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"></td>
           </tr>
           <tr>
-            <th style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
-            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9817;</p></th>
+            <th style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
+            <th class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9817;</p></th>
           </tr>
           <tbody>
           <tr>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9814;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9816;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9815;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9813;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9812;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9815;</p></td>
-            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:15px">&#9816;</p></td>
-            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:15px">&#9814;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9814;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9816;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9815;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9813;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9812;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9815;</p></td>
+            <td class="tg-0lax" style="height:50px;width:50px"><p style="font-size:25px">&#9816;</p></td>
+            <td class="tg-0lax" style="background-color:cadetBlue;height:50px;width:50px"><p style="font-size:25px">&#9814;</p></td>
           </tr>
         </tbody>
       </table>
     </div>
 
-    <div> <!-- challenge 3 -->
+    <div class="spacing-header"> <!-- challenge 3 -->
       <h2 id="3">Challenge 3: Create a Form</h2>
       <form>
+        <p>Checkbox</p>
         <input type="checkbox"><br>
+        <p>Color Picker</p>
         <input type="color"><br>
+        <p>Text Box</p>
         <input type="text"><br>
       </form><br>
 
     </div>
 
-    <div style="background-color:ivory;padding:2px"> <!-- challenge 4 -->
+    <div class="spacing-header"> <!-- challenge 4 -->
       <h2 id="4">Challenge 4: A Google Search Page</h2>
 
-    </div>
+          <!--Primary Link-->
+          <div class="panel">
+          <h3> <a href="https://www.colorado.edu/atlas/">ATLAS Institute | University of Colorado Boulder</a></h3>
+          <p><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong> for radical creativity and invention.</p>
+          </div>
 
-    <div> <!-- challenge 5 -->
+          <!-- Sub Row 1 -->
+
+          <div class="container panel">
+              <h4 class="item"><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees</a></h4>
+              <p >Radically interdisciplinary, ATLAS graduate programs nurture ...</p>
+
+              <h4 class="item"><a href="https://www.colorado.edu/atlas/about-atlas">About</a></h4>
+              <p>ATLAS is an interdisciplinary intiture for radical creativity and ...</p>
+          </div>
+
+
+          <!-- Sub Row 2 -->
+          <div class="container panel">
+              <h4 class="container"><a href="https://www.colorado.edu/atlas/academics">Academics</a></h4>
+              <p class="item">Granted throught the College of Engineering and Applied ...</p>
+
+              <h4 class="container"><a href="https://www.colorado.edu/atlas/academics/undergraduate">Undergraduate Programs</a></h4>
+              <p class="item">Awarded through the College of Engineering and Applied ...</p>
+          </div>
+
+   </div>
+
+    <div class="spacing-header"> <!-- challenge 5 -->
       <h2 id="5">Challenge 5: Accessibility Statement</h2>
       <p> </p>
     </div>
