@@ -6,6 +6,35 @@ ________________MOBILE______________________________________________________
  */
 @media (max-width:510px){
 
+  .homeDiv{
+    height: 770px;
+    margin-top: 0px;
+    background-image: url("../img/background1_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .noMargin{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  h1.homeTitle {
+    padding-top:250px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+    text-shadow: 2px 2px 5px  #808080;
+  }
+
+  a.homeAboutLink{
+    color:white;
+    margin-left: auto;
+    padding-top: 100px;
+  }
+
    h1 {
      font-family: brother-1816, sans-serif;
      font-weight: 700;
