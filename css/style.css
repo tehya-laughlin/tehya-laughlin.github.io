@@ -7,8 +7,7 @@ ________________MOBILE______________________________________________________
 @media (max-width:510px){
 
   .homeDiv{
-    height: 770px;
-    margin-top: 0px;
+    height: 100vh;
     background-image: url("../img/background1_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +20,7 @@ ________________MOBILE______________________________________________________
   }
 
   h1.homeTitle {
-    padding-top:250px;
+    padding-top:200px;
     font-size: 50px;
     text-align: center;
     color: white;
@@ -140,6 +139,13 @@ ________________MOBILE______________________________________________________
       height: auto;
     }
 
+    .image2 {
+      width: 20%;
+      margin-right: 60%;
+      margin-left:15px;
+      margin-top: 25px;
+    }
+
     .image{
       display:block;
     }
@@ -154,8 +160,7 @@ ________________LAPTOP______________________________________________________
 @media screen and (min-width:510px){
 
   .homeDiv{
-    height: 600px;
-    margin-top: 100px;
+    height: 100vh;
     background-image: url("../img/background1_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +169,7 @@ ________________LAPTOP______________________________________________________
   }
 
   h1.homeTitle {
-    padding-top:250px;
+    padding-top:150px;
     font-size: 50px;
     text-align: center;
     color: white;
@@ -249,7 +254,9 @@ ________________LAPTOP______________________________________________________
 
   .box{
     display: flex;
+    justify-content: center;
   }
+
 
   .item{
     margin: 3px;
@@ -283,6 +290,15 @@ ________________LAPTOP______________________________________________________
     margin-right: auto;
     width: 60%;
     height: auto;
+  }
+
+  .image2 {
+    width: 15%;
+    max-width: 25%;
+    max-width: 15%;
+    margin-left:15px;
+    margin-right: 78%;
+    margin-top: 25px;
   }
 
   .image{
