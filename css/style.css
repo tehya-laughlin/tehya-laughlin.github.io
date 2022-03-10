@@ -120,16 +120,18 @@ ________________MOBILE______________________________________________________
      width:100%;
    }
 
-    .hLC{
-      text-align:center;
-      margin-left: auto;
-      margin-right: auto;
-    }
+   .hLC{
+     margin-top: 60px;
+   }
+
+   .hLC2{
+     margin-top: 30px;
+   }
 
     .lLC{
       margin-left: auto;
       margin-right: auto;
-      width: 18em;
+      width: 55%;
     }
 
     img{
@@ -148,6 +150,55 @@ ________________MOBILE______________________________________________________
 
     .image{
       display:block;
+    }
+
+    .image3 {
+      width: 15%;
+      height: 15%;
+      flex-grow: 2;
+      margin: 0px;
+    }
+
+    /*
+      Sticky sidebar
+    */
+
+    .NoScroll{
+
+    }
+
+    main {
+      overflow-y: auto;
+    }
+
+    aside{
+      flex: 1 0 10%;
+    }
+
+    .wrapper{
+      display: flex;
+      height: 100%;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+    }
+
+    .ulBar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style:none;
+      padding-left: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .wrapper_inner {
+      width: 90%;
+      margin: 0px auto;
+    }
+
+    .liStyle{
+      margin-top: 10px;
+      padding: 10px;
     }
 
 }
@@ -257,7 +308,6 @@ ________________LAPTOP______________________________________________________
     justify-content: center;
   }
 
-
   .item{
     margin: 3px;
     flex: 1 1 0;
@@ -268,15 +318,17 @@ ________________LAPTOP______________________________________________________
     display: flex;
     flex-direction: column;
     align-content:center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15%;
+    margin-right: 15%;
     width:70%;
   }
 
   .hLC{
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  .hLC2{
+    margin-top: 30px;
   }
 
   .lLC{
@@ -305,6 +357,48 @@ ________________LAPTOP______________________________________________________
     display:block;
   }
 
+  .image3 {
+    width: 7%;
+    margin: 0px;
+  }
+
+  /*
+  Projects side bar, sticks
+  */
+
+  .NoScroll{
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  main {
+    overflow-y: auto;
+  }
+
+  aside{
+    flex: 1 0 10%;
+  }
+
+  .wrapper{
+    display: flex;
+    height: 100%;
+  }
+
+  .ulBar {
+    padding-top: 40px;
+    list-style: none;
+  }
+
+  .liStyle{
+    margin-top: 15px;
+  }
+
+  .wrapper_inner {
+    width: 90%;
+    margin: 0px;
+  }
+
+
 }
 
 /*
@@ -331,7 +425,10 @@ hr {
   border-color: #81B0B6;
   border-style: solid;
   width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
   padding-top: 1px;
+  margin-top: 20px;
 }
 
 ul {
