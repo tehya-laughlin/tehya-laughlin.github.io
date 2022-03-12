@@ -164,6 +164,26 @@ ________________MOBILE______________________________________________________
       margin: 10px;
     }
 
+    .box2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image5{
+     height: 130px;
+     width: auto;
+    }
+
+    .pLCBox2{
+      display: flex;
+      flex-direction: column;
+      align-content:center;
+      width: 100%;
+      margin-top: 40px;
+
+    }
+
     /*
       Sticky sidebar
     */
@@ -371,6 +391,28 @@ ________________LAPTOP______________________________________________________
   .image4{
     width: 40%;
     margin: 20px;
+  }
+
+  .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image5{
+   height: 130px;
+   width: auto;
+  }
+
+  .pLCBox2{
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    margin-left: 35%;
+    margin-right: 35%;
+    width:30%;
+    margin-top: 40px;
+
   }
 
   /*
