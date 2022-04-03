@@ -509,9 +509,7 @@ ol {
   list-style-type: upper-roman;
 }
 
-
-
-.button-style1 {
+button{
   font-family: brother-1816, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -526,7 +524,7 @@ ol {
   transition: box-shadow .25s ease-in-out;
 }
 
-.button-style1:hover{
+button:hover{
    box-shadow: inset 3px 2px 7px #999999;
 }
 
@@ -559,4 +557,13 @@ ol {
   padding: 10px;
   margin: 5px;
   box-shadow: 2px 2px 10px 3px #999999;
+}
+
+.was-clicked{
+  padding: 20px;
+  color: rebeccapurple;
+  width: 30%;
+}
+.pS{
+  font-weight: 400;
 }
