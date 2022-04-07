@@ -1,11 +1,11 @@
 const genQbutton = document.getElementById('js-new-quote');
 const quoteText = document.getElementById('js-quote-text');
 const author = document.getElementById('author');
-const endpoint = 'https://quotes.stormconsultancy.co.uk/random.json';
+const endpoint = 'http://quotes.stormconsultancy.co.uk/random.json';
 const prevButton = document.getElementById('js-prev-quote');
 
-let curr = {author: 'No Author', id: 12, quote: 'No previous quote'};
-let prev;
+let curr = {author: 'No Author', quote: 'No previous quote'};
+let prev = curr;
 
 async function getQuote(){
   console.log('Into getQuote()');
