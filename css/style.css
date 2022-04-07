@@ -350,6 +350,11 @@ ________________LAPTOP______________________________________________________
   .box{
     display: flex;
     justify-content: center;
+  }
+
+  .box3{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
   }
 
