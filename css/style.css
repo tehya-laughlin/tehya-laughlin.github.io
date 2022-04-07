@@ -230,6 +230,21 @@ ________________MOBILE______________________________________________________
       padding: 10px;
     }
 
+    .app {
+      margin-top: 10%;
+      margin-left: 0%;
+      color: white;
+      /*transform: translate(-50%, -50%);*/
+      width: 100%;
+      background-color:  #81B0B6;
+      border-radius: 5px;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    }
+
+    .quote-text {
+      font-size: 18px;
+    }
+
 }
 
 
@@ -335,12 +350,12 @@ ________________LAPTOP______________________________________________________
   .box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
   .item{
-    margin: 3px;
-    flex: 1 1 0;
     text-align: center;
+
   }
 
   .pLCBox{
@@ -463,6 +478,15 @@ ________________LAPTOP______________________________________________________
     margin: 0px;
   }
 
+  .app {
+    top: 25%;
+    margin-left: 20%;
+    width: 60%;
+    color: white;
+    background-color: #81B0B6;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
 
 }
 
@@ -566,4 +590,29 @@ button:hover{
 }
 .pS{
   font-weight: 400;
+}
+
+.quote-text {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+.hS {
+  padding: 10px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.quotes {
+  padding: 20px 50px;
+  min-height: 200px;
+}
+
+.controls {
+  width: 60%;
+  padding: 20px 50px;
+}
+
+#js-quote-text {
+  color: white;
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 12 Assignment -- Modified Quote Machine</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/script-assignment12.js"></script>
+  </head>
+  <body>
+
+    <div class="box">
+      <a href="../index.html"><img class="image3" src="../img/monograms/Black-Monogram.png" alt="Monogram TNL"></a>
+      <h4><a href="../AboutMe.html">About Me</a></h4>
+      <h4><a href="../assignmentsPage.html">Projects</a></h4>
+      <h4><a href="../art.html">Art</a></h4>
+      <h4><a href="../contactPage.html">Contact</a></h4>
+    </div>
+
+    <div>
+        <h2>Assignment 12</h2>
+        <h3>Modified Quote Generator</h3>
+    </div>
+
+    <div class="box">
+      <div class="app item">
+        <h4 class="hS">Random Quote Generator</h4>
+
+        <section class="quotes">
+          <p class="quote-text" id="js-quote-text">
+          </p>
+          <p id="author"></p>
+        </section>
+
+        <section class="controls">
+          <button type="button" id="js-new-quote">
+            Generate a new quote
+          </button>
+          <button type="button" id="js-prev-quote">
+            Previous Quote
+          </button>
+        </section>
+      </div>
+
+      <div class="item">
+        <p>The extension on my quote generator is the option to see the previous quote. The code accounts for the edge case where there is no previosu quote. It also accounts for when the user clicks to see the previous quote, and then generates a new quote. The previous quote became the current quote, and then beacme the previous quote again. This wa a fix to an issue that I was having earlier, where the previous quote would be the quote 2 iterations in the past.</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
