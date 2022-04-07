@@ -1,7 +1,7 @@
 const genQbutton = document.getElementById('js-new-quote');
 const quoteText = document.getElementById('js-quote-text');
 const author = document.getElementById('author');
-const endpoint = 'http://quotes.stormconsultancy.co.uk/random.json';
+const endpoint = 'https://quotes.stormconsultancy.co.uk/random.json';
 const prevButton = document.getElementById('js-prev-quote');
 
 let curr = {author: 'No Author', id: 12, quote: 'No previous quote'};
