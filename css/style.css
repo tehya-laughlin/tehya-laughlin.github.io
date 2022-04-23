@@ -24,14 +24,14 @@ ________________MOBILE______________________________________________________
     font-size: 50px;
     text-align: center;
     color: white;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     text-shadow: 2px 2px 5px  #808080;
   }
 
   a.homeAboutLink{
     color:white;
     margin-left: auto;
-    padding-top: 100px;
+    padding-top: 60px;
   }
 
    h1 {
@@ -284,8 +284,9 @@ ________________LAPTOP______________________________________________________
   a.homeAboutLink{
     color:white;
     text-align: left;
-    margin-left: 85%;
+    margin-left: 60%;
     padding-top: 200px;
+    font-size:45px;
   }
 
   h1 {
@@ -412,6 +413,8 @@ ________________LAPTOP______________________________________________________
 
   .image{
     display:block;
+    width: 200px;
+    height: 300px;
   }
 
   .image3 {
@@ -421,7 +424,7 @@ ________________LAPTOP______________________________________________________
   }
 
   .image4{
-    width: 40%;
+    width: 30%;
     margin: 20px;
   }
 
