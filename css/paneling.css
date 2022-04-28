@@ -1,0 +1,88 @@
+.panelHidden {
+  display: none;
+}
+
+.pInline{
+  display: inline;
+  font-size: 60px;
+  color: #81B0B6;
+  text-align: center;
+  width: 50%;
+  text-shadow: 2px 2px 3px #ebebeb;
+}
+
+.pl{
+  font-family: brother-1816, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #E84242;
+}
+
+.pl:hover {
+  color: #81B0B6;
+}
+
+.button{
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  border-width: 0px;
+  border-color: none;
+  border-style: none;
+  border-radius: 0px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  transition: none;
+  color: #E84242;
+}
+
+.button:hover {
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  border-width: 0px;
+  border-color: none;
+  border-style: none;
+  border-radius: 0px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  transition: none;
+  box-shadow: none;
+  color: #81B0B6;
+}
+
+.button2{
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-width: 0px;
+  border-color: none;
+  border-style: none;
+  border-radius: 0px;
+  background-color: white;
+  padding: 3px;
+  margin: 10px;
+  transition: none;
+  color: #E84242;
+}
+
+.button2:hover {
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-width: 0px;
+  border-color: none;
+  border-style: none;
+  border-radius: 0px;
+  background-color: white;
+  padding: 3px;
+  margin: 10px;
+  box-shadow: none;
+  color: #81B0B6;
+}

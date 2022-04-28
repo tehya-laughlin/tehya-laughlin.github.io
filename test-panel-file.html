@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/paneling.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script defer src="./js/projectPanel.js"></script>
+  </head>
+  <body>
+
+    <div class="box">
+      <a href="./index.html"><img class="image3" src="./img/monograms/Black-Monogram.png" alt="Monogram TNL"></a>
+      <h4><a href="./AboutMe.html">About Me</a></h4>
+      <h4><a href="./assignmentsPage.html">Projects</a></h4>
+      <h4><a href="./art.html">Art</a></h4>
+      <h4><a href="./contactPage.html">Contact</a></h4>
+    </div>
+
+    <div>
+    <h2>Projects TESTS<h2>
+    </div>
+
+    <div class="pLCBox3">
+      <button class="pInline button" id="left"> ← </button>
+      <button class="pInline button" id="right"> → </button>
+    </div>
+
+<div class="NoScroll">
+<div class="wrapper">
+  <div class="aside">
+    <div class="ulBar">
+      <button class="pl button2" id="atls2200">ATLS 2200</button>
+      <button class="pl button2" id="designfoundations">Design Foundations</button>
+      <button class="pl button2" id="appm3170">Infecious Disease Modeling</button>
+      <button class="pl button2" id="cmdgame">Command Line Game</button>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="wrapper_inner">
+
+      <div class id="panel1">
+        <h3 class="hLC" >ATLS 2200 Assignments:</h3>
+
+        <div class="lLC">
+          <ul class="pLCBox">
+            <li><a href="./assignments/assignment_1.html">Assignment 1</a></li>
+            <li><a href="./assignments/assignment_2.html">Assignment 2</a></li>
+            <li><a href="./assignments/assignment3.html">Assignment 3</a></li>
+            <li><a href="./assignments/assignment4.html">Assignment 4</a></li>
+            <li><a href="./assignments/assignment5.html">Assignment 5</a></li>
+            <li><a href="./assignments/assignment11.html">Assignment 11</a></li>
+            <li><a href="./assignments/assignment12.html">Assignment 12</a></li>
+            <li><a href="./assignments/assignment13.html">Assignment 13</a></li>
+            <li><a href="./assignments/assignment14.html">Assignment 14</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+        <!--ATLAS Design Foundations-->
+        <div class="panelHidden" id="panel2">
+        <h3 class="hLC2">ATLAS Design Foundations</h3>
+          <div class="pLCBox">
+            <p>My <a href="https://tehyalaughlinblog.wordpress.com">Design Foundations Work In Progress</a> site holds my documentation for various projects I worked on during the class. This class covered multiple different topics, but stayed with the basic ideas surrounding design, like space, color, content, and the stages of the Ideation process. The final project for this class was to design an app, and use Adobe XD to create an interactive prototype. Adobe XD is great for basic prototypes, but I definitely found that it laking in some user-input areas. I was excited to learn more about Web developemnet from ATLS 2200.</p>
+          </div>
+        </div>
+
+
+
+        <!--APPM 3170 Project-->
+        <div class="panelHidden" id="panel3">
+        <h3 class="hLC2">APPM 3170: Modeling Infection Growth with Data Science</h3>
+          <div class="pLCBox">
+            <p>I took APPM 3170 in the Fall of 2021. This class was about Discrete Mathematics, and we did a project using statistics and Graph theory to model the growth of an infectious disease
+              in different settings and with two different types of data collection methods. This project seemed very relevant due to the Covid-19 pandemic, and highlighted the very interesting science that goes on behind disease tracking and statistical transmission. The project was tough and focused on the Graph data structure. My partner and I used MATLAB to write the simulation algorithm SIR. The two collection methods were face-to-face transmission, which was collected by the subjects wearing cameras on their chests as they went about their normal days. The second method was RFID tracking, like what our phones use to track location. The face-to-face tracking is the golden standard, and the project shows that simulating disease based off of this measure is moe accurate. You can acess the PDFs <a href="./documents/APPM3170.pdf#toolbar=0">HERE</a> and <a href="./documents/part2.pdf#toolbar=0">HERE</a>
+              if the display below is too small.</p>
+            <iframe src="./documents/APPM3170.pdf#toolbar=0" width="100%" height="800px"></iframe>
+            <iframe src="./documents/part2.pdf#toolbar=0" width="100%" height="800px"></iframe>
+          </div>
+        </div>
+
+
+
+        <!--Comp Sci Game On standby until adding embedded command line ???? -->
+        <div class="panelHidden" id="panel4">
+        <h3 class="hLC2" >CSCI 1300: Command Line RPG Dungeon Game</h3>
+        <div class="pLCBox">
+          <p>The final project for my first college coding class was to create a game that played through the terminal with the command line. The goal was to create the game and print a map and menu to the terminal, then take user input to move
+          a character around the printed map. We were given the coded Map class, but then everything else about the game we had to create ourselves. We were allowed to work with parnters. Immediately after learning about the project, Joanna Parker and I decided to be partners. We initially had different ideas for the project, but then we decided on an RPG game. The first step was to think about what our project would contain, and how it would function. Then we organized how we would work together collaboratively. Github was important to this project because we could make a private repository and see commits/what the other partner changed. The repository also allowed for a project, with Kanban tabs, and cards that could be moved between tabs, which helped us keep on track since it was a dynamic to-do list. After setting up our configuration, we started on the class components. We knew we needed a player class, a monster class, and somehow an item/inventory class. Our class components grew and changed over the first week and after our design interview. For example, we originally had an item class, with swords, and potions being classes that inherited from Item. However, we also had an inventory where each item was stored and organized. After the design meeting, we got rid of the item and potion classes, but we kept the sword class and fed a sword vector into the inventory class. The potions ended up being variables, since what each potion did was constant.
+        </div>
+        </div>
+
+        <!--IMAGE project-->
+
+      </div>
+    </main>
+  </div>
+</div>
+  </body>
+</html>
