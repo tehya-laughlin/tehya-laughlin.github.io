@@ -6,6 +6,10 @@ ________________MOBILE______________________________________________________
  */
 @media (max-width:510px){
 
+  .video{
+    display: none;
+  }
+
   .homeDiv{
     height: 100vh;
     background-image: url("../img/background1_2.jpg");
@@ -25,7 +29,7 @@ ________________MOBILE______________________________________________________
     text-align: center;
     color: white;
     padding-bottom: 0px;
-    text-shadow: 2px 2px 5px  #808080;
+    text-shadow: 2px 2px 5px  #00000060;
   }
 
   a.homeAboutLink{
@@ -272,6 +276,10 @@ ________________LAPTOP______________________________________________________
 
 @media screen and (min-width:510px){
 
+  .video{
+    display:block;
+  }
+
   .homeDiv{
     height: 100vh;
     background-image: url("../img/background1_2.jpg");
@@ -287,7 +295,7 @@ ________________LAPTOP______________________________________________________
     text-align: center;
     color: white;
     padding-bottom: 130px;
-    text-shadow: 2px 2px 5px  #808080;
+    text-shadow: 2px 2px 5px  #00000060;
   }
 
   a.homeAboutLink{
@@ -485,13 +493,27 @@ ________________LAPTOP______________________________________________________
     height: 100vh;
   }
 
+  .NoScroll2{
+    width: 100%;
+    height: 85.5px;
+    position: fixed;
+    background: white;
+    box-shadow: 0px 15px 10px -15px #00000010;
+    top: 0px;
+    padding-top: 8px;
+  }
+
+  .pageHeader{
+    padding-top: 105px;
+  }
+
   main {
-    overflow-y: auto;
+    overflow-y: scroll;
   }
 
   .aside{
     flex: .45 0 10%;
-    width: 20%;
+    width: 10%;
   }
 
   .wrapper{
@@ -500,7 +522,13 @@ ________________LAPTOP______________________________________________________
   }
 
   .ulBar {
-    padding-top: 40px;
+    padding-left: 10px;
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 6rem;
+    position: sticky;
   }
 
   .liStyle{
@@ -531,6 +559,11 @@ ________________LAPTOP______________________________________________________
     margin-left: 35%;
     margin-top: 30px;
     margin-bottom: 15px;
+  }
+
+  .document{
+    width:80%;
+    margin-left: 10%
   }
 
 }
@@ -697,4 +730,8 @@ input[type="radio"]:checked{
   color: white;
   padding: 10px;
   visibility: hidden;
+}
+
+.thinShadow{
+  text-shadow:  2px 2px 5px  #00000060;
 }

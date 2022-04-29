@@ -5,15 +5,18 @@ const p1 = document.getElementById('panel1');
 const p2 = document.getElementById('panel2');
 const p3 = document.getElementById('panel3');
 const p4 = document.getElementById('panel4');
-const last = p4;
+const p5 = document.getElementById('panel5');
+const last = p5;
 
 const lp1 = document.getElementById('atls2200');
 const lp2 = document.getElementById('designfoundations');
 const lp3 = document.getElementById('appm3170');
 const lp4 = document.getElementById('cmdgame');
+const lp5 = document.getElementById('image');
 
-let arrP = [p1, p2, p3, p4];
+let arrP = [p1, p2, p3, p4, p5];
 
+let indexLast = 4;
 let num = 0;
 let active = arrP[num];
 
@@ -22,7 +25,7 @@ function leftArrowClicked(){
   activate(active);
   //set active to new active panel
   if(num === 0){
-    num = 3;
+    num = indexLast;
   } else {
     num --;
   }
@@ -36,7 +39,7 @@ function rightArrowClicked(){
   //deactivate active
   activate(active);
   //set active to new active panel
-  if(num === 3){
+  if(num === indexLast){
     num = 0;
   } else {
     num++;
@@ -47,11 +50,11 @@ function rightArrowClicked(){
 }
 
 function activate(p){
-  console.log('Class toggled.');
   p.classList.toggle("panelHidden");
 }
 
 function goToPanel(p){
+  console.log('In goToPanel');
   //deactivate active
   activate(active);
   //set active to new active panel
@@ -64,7 +67,8 @@ function goToPanel(p){
 left.addEventListener('click', leftArrowClicked);
 right.addEventListener('click', rightArrowClicked);
 
-lp1.addEventListener('click', goToPanel(0));
-lp2.addEventListener('click', goToPanel(1));
-lp3.addEventListener('click', goToPanel(2));
-lp4.addEventListener('click', goToPanel(3));
+lp1.addEventListener('click', (evt) => goToPanel(0));
+lp2.addEventListener('click', (evt) => goToPanel(1));
+lp3.addEventListener('click', (evt) => goToPanel(2));
+lp4.addEventListener('click', (evt) => goToPanel(3));
+lp5.addEventListener('click', (evt) => goToPanel(4));
