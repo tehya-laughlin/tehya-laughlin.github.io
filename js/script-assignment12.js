@@ -1,10 +1,10 @@
 const genQbutton = document.getElementById('js-new-quote');
 const quoteText = document.getElementById('js-quote-text');
 const author = document.getElementById('author');
-const endpoint = 'https://quotes.stormconsultancy.co.uk/random.json';
+const endpoint = 'https://programming-quotes-api.herokuapp.com/Quotes/random';
 const prevButton = document.getElementById('js-prev-quote');
 
-let curr = {author: 'No Author', quote: 'No previous quote'};
+let curr = {author: 'No Author', en: 'No previous quote'};
 let prev = curr;
 
 async function getQuote(){
@@ -16,7 +16,7 @@ async function getQuote(){
     }
       const json = await response.json();
       console.log(json);
-      displayQuote(json.quote, json.author);
+      displayQuote(json.en, json.author);
       curr = json;
   } catch(err) {
     console.log('Fail');
@@ -44,9 +44,9 @@ function quoteButtonClick(){
 
 function displayPrevQuote(){
   console.log('Into displayPrevQuote');
-  if(prev.quote !== ''){
+  if(prev.en !== ''){
     console.log(curr);
-    displayQuote(prev.quote,prev.author);
+    displayQuote(prev.en,prev.author);
     curr = prev;
   } else {
     console.error('ERROR: Prev Quote Failed');
