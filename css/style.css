@@ -4,7 +4,7 @@
 /*
 ________________MOBILE______________________________________________________
  */
-@media (max-width:510px){
+@media (max-width:520px){
 
   .video{
     display: none;
@@ -274,7 +274,7 @@ ________________MOBILE______________________________________________________
 ________________LAPTOP______________________________________________________
  */
 
-@media screen and (min-width:510px){
+@media screen and (min-width:520px){
 
   .video{
     display:block;
