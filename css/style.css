@@ -450,8 +450,9 @@ ________________LAPTOP______________________________________________________
   }
 
   .image4{
-    width: 30%;
+    width: 40%;
     margin: 20px;
+    display: inline;
   }
 
   .box2{
@@ -465,7 +466,13 @@ ________________LAPTOP______________________________________________________
   }
 
   .item2{
-    width: 30%;
+    width: 100%;
+    display: flex;
+  }
+
+  .space{
+    margin-top: 20%;
+    margin-left: 20px;
   }
 
   .image5{
