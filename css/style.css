@@ -165,6 +165,8 @@ ________________MOBILE______________________________________________________
 
     .image4{
       width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
       margin-top: 20px;
     }
 
@@ -472,6 +474,11 @@ ________________LAPTOP______________________________________________________
 
   .space{
     margin-top: 20%;
+    margin-left: 20px;
+  }
+
+  .space2{
+    margin-top: 0%;
     margin-left: 20px;
   }
 
